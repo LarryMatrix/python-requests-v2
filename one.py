@@ -5,12 +5,11 @@ import psycopg2
 
 
 def insert():
-    username = 'wkxqxgtqutdjwx'
-    password = '778097e7a0247e14d9ff7917095199709637870daca6d21bd8b9d28c03f5b4ca'
-    host = '127.0.0.1'
-    port = 5432
-    db = 'd7h4pekdeo0957'
-    uri = 'postgres://wkxqxgtqutdjwx:778097e7a0247e14d9ff7917095199709637870daca6d21bd8b9d28c03f5b4ca@ec2-174-129-254-231.compute-1.amazonaws.com:5432/d7h4pekdeo0957'
+    username = 'username'
+    password = 'password'
+    host = 'host'
+    port = 'port'
+    db = 'db'
 
     try:
         connection = psycopg2.connect(
